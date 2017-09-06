@@ -41,13 +41,13 @@
 }
 
 h3 {
-	color: yellow;
+	color: #eef5db;
 	font-size: 10px;
 	padding-top: 6px;
 }
 
 p{
-	color: black;
+	color: #333745;
 }
 body, html {
     height: 100%;
@@ -67,7 +67,7 @@ body, html {
 	display: block;
 	font-size: 3em;
 	text-align: center;
-	color: white;
+	color: #333745;
 	margin-left: auto;
 	margin-right: auto;
 	top: 50%;
@@ -90,7 +90,7 @@ strong {
 	height: 50px;
 	width: 105px;
 	border-radius: 5px;
-	background-color: #c7e7ef;
+	background-color: #fe5f55;
 	margin: 0 auto;
 	margin-top: 5px;
 }
@@ -101,6 +101,67 @@ strong {
 	font-size: 15px;
 	line-height: 50px;
 	font-weight: bold;
-	color: red;
+	color: white;
 
 }
+
+.gallery {
+	background-color: #f35f55;
+	/*height: 400px;*/
+	min-height: 400px;
+	padding: 30px;
+	font-family: "arial", sans-serif;
+	color: white;
+}
+
+.column {
+	border: 1px solid black;
+	width: 31%;
+	float: left;
+
+	margin-right: 1%;
+	margin-left: 1%;
+	/*margin-bottom: 1%;*/
+	padding: 10px;
+
+}
+
+.gallery > .column {
+	 width: 23%;
+	 margin: 0 1%;
+	 margin-top: 1%;
+	 border-color: #333745;
+}
+
+img[alt*="Gallery"] {
+	display: block;
+	width: 100%;
+	border: 1px solid black;
+	height: 200px;
+
+}
+
+footer {
+	background-color: #333745;
+	min-height: 30px;
+	padding: 5px;
+	text-align: center;
+	color: white;
+	font-family: "arial"
+}
+
+.column a {
+			text-decoration: none;
+			color: red;
+			background-color: yellow;
+		
+		}
+
+#hova {
+	text-align: center;
+	background-color: white;
+	font-weight: bold;
+	margin-top: 5px;
+}
+
+
